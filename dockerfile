@@ -27,4 +27,3 @@ COPY --from=builder /app/build /usr/share/nginx/html
 # That's where our app would run from in aws
 
 # No need to specify a command to start nginx as it gets started by default when a container with the image starts
-Dockerfile.dev — Used for building the image that contains the development version which would be used to run tests
